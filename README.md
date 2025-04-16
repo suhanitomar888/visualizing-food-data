@@ -1,73 +1,101 @@
-# Good Food Visualizations
+# 🥕 Good Food Purchasing Data Analysis
 
-A data visualization project analyzing the **Good Food Purchasing Program** dataset to uncover insights into food procurement patterns across New York City agencies. The goal is to provide clear, impactful visualizations that inform better food policy decisions.
+📌 **Government Food Purchasing Trends Across Agencies**
 
----
-
-## ✨ Features
-- 📈 Total spending by food categories & agencies  
-- 🏷️ Unit price trends across departments  
-- 🍎 Classification of whole vs. processed foods  
-- 🔥 Correlation heatmap for key purchasing metrics  
-- 🗌️ Agency vs. product group heatmaps  
-- 🥧 Pie and bar charts with custom Virginia color palette  
-- 📉 Cleaned and preprocessed data to ensure accuracy
+➡️ This project analyzes the **Good Food Purchasing Data**, which tracks food procurement by various city agencies in the U.S., promoting transparency in public food spending and encouraging sustainable, equitable food systems.
 
 ---
 
-## 📄 Dataset
-The dataset used in this project is based on real-world food procurement data obtained from the **Good Food Purchasing Program**, focusing on spending, unit pricing, vendor data, and food classification.
+## 📁 Dataset
+
+The dataset is sourced from the **U.S. Government Open Data Portal**:  
+[https://catalog.data.gov/dataset/good-food-purchasing-data](https://catalog.data.gov/dataset/good-food-purchasing-data)
+
+It contains details such as:
+- Product name, category, and group  
+- Quantity purchased and total cost  
+- Vendors and city agencies  
+- Unit price, product origin, and time period
 
 ---
 
-## 📅 Objectives Covered
-1. **Total Spending by Food Product Category** (Bar Plot)
-2. **Average Price Per Unit Across Agencies** (Grouped Bar Chart)
-3. **Food Classification (Whole vs. Processed)** (Donut Chart)
-4. **Spending Distribution Across Agencies** (Pie Chart)
-5. **Agency vs Product Group Spend Heatmap** (Heatmap)
-6. **Top Vendors and Cost Trends**
-7. **Correlation Matrix of Procurement Metrics**
+## 🎯 Project Objectives
 
-All visuals use a **custom Virginia color palette** for a clean, consistent aesthetic.
-
----
-
-## 🚀 Getting Started
-
-
-
-## 🛠️ Technologies Used
-- **Python**
-- **Pandas** for data preprocessing
-- **Matplotlib** and **Seaborn** for visualizations
+1. **Analyze the distribution of food spending across different food categories**  
+2. **Compare the average price per unit of key food items across different City agencies**  
+3. **Identify and visualize the top food items and vendors based on quantity and cost**  
+4. **Track year-over-year changes in fruit and vegetable purchases**  
+5. **Detect food items with significant price fluctuations over time**  
+6. **Classify food items into processed vs. whole foods and analyze their purchase ratio**  
+7. **Explore vendor diversification across product categories**
 
 ---
 
-## 📖 Learnings
-This project demonstrates how visual exploration of procurement data can:
-- Identify high-spend categories
-- Reveal cost inconsistencies across agencies
-- Uncover trends in food quality (whole vs. processed)
-- Inform policy with actionable insights
+## 🧼 Data Cleaning
+
+Before analysis, the dataset was cleaned for accuracy:
+- Handled missing values (especially in price and time fields)
+- Parsed and standardized date formats
+- Removed duplicates and inconsistent vendor/product entries
+- Created new features (like `Year`, `Food Type` classification)
 
 ---
 
-## 🔗 Connect
-If you're interested in food systems, public policy, or civic data — let’s connect!
+## 📊 Exploratory Data Analysis (EDA)
+
+To derive insights and visualize trends, the following techniques were used:
+- Bar charts, pie charts, and heatmaps
+- Grouped aggregations and trend lines
+- Outlier detection (boxplots)
+- Correlation matrix for numerical features
+- Time-series analysis by year
 
 ---
 
-## 📊 Sample Visuals
-> Screenshots of key charts can be added here once hosted or saved in a /visuals folder
+## 🛠️ Libraries Used
+
+- `pandas`  
+- `numpy`  
+- `matplotlib`  
+- `seaborn`  
+- `datetime`
 
 ---
 
-## 💪 Acknowledgements
-Thanks to the organizations behind the Good Food Purchasing Program for releasing this important dataset.
+## 🔍 Key Insights
+
+- **Spending was highly concentrated** in specific categories like grains and dairy.
+- **Price per unit varied widely** across city agencies for the same food items.
+- **Top vendors** were responsible for large shares of total food cost.
+- **Fruit and vegetable purchases** fluctuated over years, possibly due to policy changes.
+- **Certain products like ketchup and chips showed price volatility** over time.
+- **Whole foods made up a larger portion of purchases**, but processed food spending was significant.
+- **Many vendors specialized**, but a few served across diverse categories.
 
 ---
 
-## 📚 License
-This project is licensed under the MIT License.
+## 🌍 Why This Project Matters
 
+Understanding public food procurement patterns helps governments:
+- Improve **budget efficiency**  
+- Support **local and sustainable** vendors  
+- Encourage **healthy food choices**  
+- Make **data-driven policy decisions** to strengthen food systems
+
+This project aims to turn raw data into actionable insights for better governance and transparency.
+
+---
+
+## 🔭 Future Scope
+
+- **Forecast spending trends** with machine learning  
+- **Cluster vendors** by product diversity and price patterns  
+- **Develop an interactive dashboard** for city officials and public use  
+- **Geo-map vendor origins** to analyze local vs. global sourcing  
+
+---
+
+## 🤝 Let’s Connect!
+
+Have ideas to enhance this project or want to collaborate on public data transparency projects?  
+Feel free to **fork the repo**, raise an issue, or reach out!
