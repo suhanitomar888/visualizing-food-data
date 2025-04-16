@@ -2,8 +2,6 @@
 
 A data visualization project analyzing the **Good Food Purchasing Program** dataset to uncover insights into food procurement patterns across New York City agencies. The goal is to provide clear, impactful visualizations that inform better food policy decisions.
 
----
-
 ## ✨ Features
 - 📈 Total spending by food categories & agencies  
 - 🏷️ Unit price trends across departments  
