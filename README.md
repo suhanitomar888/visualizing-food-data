@@ -89,10 +89,10 @@ This project aims to turn raw data into actionable insights for better governanc
 
 ## 🔭 Future Scope
 
-- **Forecast spending trends** with machine learning  
-- **Cluster vendors** by product diversity and price patterns  
-- **Develop an interactive dashboard** for city officials and public use  
-- **Geo-map vendor origins** to analyze local vs. global sourcing  
+- **Forecast spending trends** with machine learning. 
+- **Cluster vendors** by product diversity and price patterns. 
+- **Develop an interactive dashboard** for city officials and public use.  
+- **Geo-map vendor origins** to analyze local vs. global sourcing.  
 
 ---
 
