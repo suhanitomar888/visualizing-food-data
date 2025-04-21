@@ -1,6 +1,7 @@
 ![image](https://github.com/user-attachments/assets/4aa2311f-23c1-4560-b988-b0c1e33eac49)
 # 🥕 Good Food Purchasing Data Analysis
 
+
 📌 **Government Food Purchasing Trends Across Agencies**
 
 ➡️ This project analyzes the **Good Food Purchasing Data**, which tracks food procurement by various city agencies in the U.S., promoting transparency in public food spending and encouraging sustainable, equitable food systems.
@@ -84,6 +85,7 @@ Understanding public food procurement patterns helps governments:
 - Make **data-driven policy decisions** to strengthen food systems
 
 This project aims to turn raw data into actionable insights for better governance and transparency.
+#CSE
 
 ---
 
