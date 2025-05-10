@@ -4,9 +4,6 @@
 📌 **Government Food Purchasing Trends Across Agencies**
 
 ➡️ This project analyzes the **Good Food Purchasing Data**, which tracks food procurement by various city agencies in the U.S., promoting transparency in public food spending and encouraging sustainable, equitable food systems.
-
----
-
 ## 📁 Dataset
 
 The dataset is sourced from the **U.S. Government Open Data Portal**:  
